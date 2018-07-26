@@ -1,28 +1,17 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package jcrete2018;
 
-import javax.jws.WebService;
-import javax.jws.WebMethod;
-import javax.jws.WebParam;
-import javax.ejb.Stateless;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
 
-/**
- *
- * @author martin
- */
-@WebService(serviceName = "LatestImage")
-@Stateless()
+@Path("")
 public class LatestImage {
 
-    /**
-     * This is a sample web service operation
-     */
-    @WebMethod(operationName = "hello")
-    public String hello(@WebParam(name = "name") String txt) {
-        return "Hello " + txt + " !";
+    @Path("hello")
+    @GET
+    @Produces(value = MediaType.TEXT_PLAIN)
+    public String hello() {
+        return "Hello txt!";
     }
 }
