@@ -1,0 +1,20 @@
+{
+    "connectionSettings" : {
+    	"proxy" : {
+            "host" : null,
+            "port" : -1,
+            "user" : null,
+            "password" : null
+        }
+    },
+    "twitter" : {
+        "debugEnabled" : true,
+        "extendedMode" : true,
+        "oauth" : {
+            "consumerKey" : "l3YbmosPLn9e2CRlVEgmI1tCr",
+            "consumerSecret" : "9hYzMRjdk4dkpEwgTopD4bAnjwk3C7IDRah0SMOFz4eIMPZ9x5",
+            "accessToken" : "42373683-7eKNQLyqbQgZawNo025IdL4IeeYMwywcghH2Obmz8",
+            "accessTokenSecret" : "90a2gZN4JvIHuC6ZgFrgMJ0hX7f6SS09BOs8DrZL6GO1v"
+        }
+    }
+}
